@@ -9,15 +9,15 @@
 	</PropertyGroup>
 	
 	<PropertyGroup>
-		<AssetBundlePath>$(ProjectDir)UnityProject - SageSecondFloor\content\mod.assets</AssetBundlePath>
+		<AssetBundlePath>$(ProjectDir)UnityProject - PersonalCosmetics\content\mod.assets</AssetBundlePath>
 	</PropertyGroup>
 	
 	<ItemGroup>
 	  <Compile Remove="content\**" />
-	  <Compile Remove="UnityProject - SageSecondFloor\**" />
+	  <Compile Remove="UnityProject - PersonalCosmetics\**" />
 	  <EmbeddedResource Remove="content\**" />
-	  <EmbeddedResource Remove="UnityProject - SageSecondFloor\**" />
-	  <None Remove="UnityProject - SageSecondFloor\**" />
+	  <EmbeddedResource Remove="UnityProject - PersonalCosmetics\**" />
+	  <None Remove="UnityProject - PersonalCosmetics\**" />
 	</ItemGroup>
   
 	<ItemGroup>
